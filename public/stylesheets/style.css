@@ -10,12 +10,33 @@
   }
   
   main {
-    padding: 30px 30px;
+    padding: 60px 30px;
     margin: 10px;
     background-color: #f9f6f0;
     margin: 0;
   }
+
+  .home {
+    color: white;
+    padding: .6rem;
+    margin: .8rem;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
   
+  .home i {
+    color: white;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+  }
+
   main > p:nth-child(2) {
    text-align: center;
    padding: 15px 0;
@@ -85,19 +106,20 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 4rem;
+    gap: 2rem;
     margin-bottom: 4rem;
   }
 
   .links {
     background-color: white;
-    width: 100%;
+    width: max-content;
     height: auto;
     text-align: center;
-    font-size: 2rem;
-    padding: 2rem;
-    box-shadow: inset 2px 2px 20px lightgray, inset -2px -2px 20px lightgray;
+    font-size: 1rem;
+    padding: .5rem .8rem;
+    margin: 1rem;
+    box-shadow: inset 1px 1px 5px rgb(144, 142, 142), inset -1px -1px 5px rgb(144, 142, 142);
     text-transform: uppercase;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 2px;
   }
