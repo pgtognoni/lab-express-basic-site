@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: open-sans, sans-serif;
+    background-color: white;
+    margin: 0;
+  }
+  
+  main {
+    padding: 30px 30px;
+    margin: 10px;
+    background-color: #f9f6f0;
+    margin: 0;
+  }
+  
+  main > p:nth-child(2) {
+   text-align: center;
+   padding: 15px 0;
+  }
+  
+  #title {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 2.5rem;
+  }
+  #img-div {
+    padding: 40px 20px;
+    margin: 10px auto;
+    background-color: white;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  img {
+    display: block;
+  }
+
+  #image {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 5px 0;
+  }
+  
+  #img-caption {
+    text-align: center;
+    font-size: 0.75rem;
+    padding-top: 5px;
+    font-weight: 300;
+    width: 75%;
+  }
+  
+  #tribute-info {
+    margin: auto;
+    padding: 15px 30px;
+    max-width: 60vw;
+  }
+  
+  #tribute-info > p {
+    padding: 15px 0;
+    letter-spacing: 0.4px;
+    font-weight: 300;
+  }
+  
+  #tribute-link {
+    font-weight: 700;
+    padding-top: 40px;
+  }
+  
+  #tribute-link a {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #292929
+  }
+
+  #tribute-info.links-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .links {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    box-shadow: inset 2px 2px 20px lightgray, inset -2px -2px 20px lightgray;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+  }
